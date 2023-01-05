@@ -19,6 +19,19 @@
 
 
 }
+.btn-contact {
+    background: #FFF8F3;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
 
 .header {
     background-color: #FFF8F3;
