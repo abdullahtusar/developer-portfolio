@@ -308,10 +308,18 @@ input{
         margin-bottom: 10px;
     }
 
+    .about{
+        padding: 0px 20px;
+    }
+
     .about-info-container {
         flex-direction: column;
     }
 
+    .what-i-do-description {
+        padding: 0px 20px;
+    }
+    
     .skills-container {
         flex-direction: column;
         text-align: center;
