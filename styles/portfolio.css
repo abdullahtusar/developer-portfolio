@@ -283,6 +283,7 @@ input{
         flex-direction: column;
         margin: 0;
         padding: 20px;
+        padding-bottom: 0;
     }
     .banner-title {
         font-size: 65px;
@@ -310,7 +311,7 @@ input{
     }
 
     .about{
-        padding: 0px 20px;
+        padding: 20px 20px;
     }
 
     .about-info-container {
