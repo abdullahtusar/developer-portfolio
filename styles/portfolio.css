@@ -12,7 +12,7 @@
     font-weight: 500;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
+    padding: 10px 35px;
     height: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -27,7 +27,7 @@
     text-align: center;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
-    padding: 18px 35px;
+    padding: 10px 35px;
     height: 64px;
     border-radius: 5px;
     margin-left: 30px;
@@ -54,7 +54,7 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 51px;
+    padding-left: 51px;
 }
 
 .nav-title {
@@ -66,9 +66,11 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    padding-left: 200px;
 }
-
+.banner img{
+    margin-left:530px;
+}
 .banner-title {
     font-weight: 600;
     font-size: 85px;
@@ -269,3 +271,163 @@ footer{
 input{
     height: 20px;
 }
+
+
+/* media queries for small device */
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+    .banner-title {
+        font-size: 65px;
+    }
+    .banner img{
+        width: 100%;
+        margin:0px;
+    }
+    .btn-primary, .btn-contact{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    nav{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        padding: 0px 5px;
+        align-items: flex-start;
+    }
+    nav li{
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resume-content-container {
+        padding: 0px 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+}
+/* media queries for tablet device */
+@media screen and (min-width:577px) and (max-width:768px){
+    .header {
+        background-image: url(../images/header_bg.png);
+    }
+    .banner {
+        flex-direction: column;
+        margin: 0;
+        padding: 0px 50px;
+    }
+    .banner-title {
+        font-size: 65px;
+    }
+    .banner img{
+        width: 100%;
+        margin:0px;
+    }
+    nav{
+        padding: 50px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resume-content-container {
+        padding: 0px 20px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+}
+
+/* media queries for medium device */
+@media screen and (min-width:769px) and (max-width:992px){
+    .header {
+        background-image: url(../images/header_bg.png);
+    }
+    .banner{
+        padding-left: 50px;
+    }
+    
+    .banner img {
+        width: 60%;
+        margin-left: 0;
+        margin-top: 105px;
+    }
+    nav{    
+        padding: 20px 50px;
+    }
+    .btn-primary, .btn-contact{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .resume-content-container {
+        padding: 0px 20px;
+    }
+}
+
+/* media queries for Laptop-s device */
+@media screen and (min-width:993px) and (max-width:1200px){
+    .header {
+        background-image: url(../images/header_bg.png);
+    }
+
+    .banner{
+        padding-left: 50px;
+    }
+    .banner img {
+        width: 50%;
+        margin: 0px;
+    }
+    .btn-primary, .btn-contact{
+        font-size: 20px;
+    }
+    nav{    
+        padding: 50px 50px;
+    }
+    .resume-content-container {
+        padding: 0px 20px;
+    }
+}
+/* media queries for Laptop-L device */
+@media screen and (min-width:1201px) and (max-width:1440px){
+    .btn-primary, .btn-contact {
+        font-size: 15px;
+        padding: 6px 9px;
+    }
+    .banner img {
+        margin-left: 0;
+    }
+
+}
+
