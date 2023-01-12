@@ -277,6 +277,7 @@ input{
 @media screen and (max-width:576px) {
     .header{
         background-image: none;
+        text-align: center;
     }
     .banner {
         flex-direction: column;
@@ -301,7 +302,7 @@ input{
     nav ul{
         flex-direction: column;
         padding: 0px 5px;
-        align-items: flex-start;
+        align-items: center;
     }
     nav li{
         padding-left: 0px;
@@ -319,7 +320,7 @@ input{
     .what-i-do-description {
         padding: 0px 20px;
     }
-    
+
     .skills-container {
         flex-direction: column;
         text-align: center;
