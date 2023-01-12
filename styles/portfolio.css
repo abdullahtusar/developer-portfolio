@@ -319,10 +319,16 @@ input{
 
     .resume-content-container {
         padding: 0px 20px;
+        flex-direction: column;
+        text-align: center;
     }
 
     .contact {
         flex-direction: column;
+        padding: 20px 20px;
+    }
+    .contact input[type="text"], textarea {
+        width: 81%;
     }
 }
 /* media queries for tablet device */
@@ -359,6 +365,8 @@ input{
 
     .resume-content-container {
         padding: 0px 20px;
+        flex-direction: column;
+        text-align: center;
     }
 
     .contact {
